@@ -9,12 +9,12 @@ except:
 
 con.execute("insert into student(age,name,mark)values(25,'anu',14)") 
 con.commit()   
-con.execute("insert into student(age,name,mark)values(20,'athul',10)") 
-con.commit()   
-con.execute("insert into student(age,name,mark)values(25,'adith',16)") 
-con.commit()   
-con.execute("insert into student(age,name,mark)values(25,'abi',19)") 
-con.commit()   
+# con.execute("insert into student(age,name,mark)values(20,'athul',10)") 
+# con.commit()   
+# con.execute("insert into student(age,name,mark)values(25,'adith',16)") 
+# con.commit()   
+# con.execute("insert into student(age,name,mark)values(25,'abi',19)") 
+# con.commit()   
 
 con.execute("delete from student where name='anu'")
 con.commit
